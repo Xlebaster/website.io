@@ -1,0 +1,49 @@
+/* Собственный файл стилей */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    color: #555;
+    margin-top: 20px;
+}
+
+p {
+    color: #777;
+    line-height: 1.5;
+}
+
+ul {
+    color: #777;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}

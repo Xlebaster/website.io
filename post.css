@@ -1,0 +1,17 @@
+/* Задаем фоновый цвет для тела сайта */
+body {
+    background-color: #f0f0f0;
+  }
+  
+  /* Задаем стиль для заголовка поста */
+  .post-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  /* Задаем стиль для текста поста */
+  .post-body {
+    font-size: 1rem;
+    white-space: pre-wrap;
+  }
+  

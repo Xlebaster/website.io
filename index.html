@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Итоговый проект</title>
+    <!-- Подключение Bootstrap 5 через CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
+    <!-- Подключение jQuery через CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Подключение собственного файла стилей -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Проект</h1>
+        <p>Этот сайт разработан в качестве итогового проекта учеником Приходько Глебом из группы О722Б. Целью данного сайта является показать на примере разницу между POST и GET запросом для студентов.</p>
+        <h2>Стек технологий</h2>
+        <p>Этот сайт использует в себе не только html, css, js технологии, а также более специфичные и узконаправленные технологии такие как:</p>
+        <ul>
+            <li>Bootstrap 5: Это популярный фреймворк для создания адаптивных и красивых сайтов. Сайт использует Bootstrap для создания сетки, формы, списка и кнопки. Сайт также подключает Bootstrap через CDN (Content Delivery Network), чтобы ускорить загрузку сайта.</li>
+            <li>jQuery: Это библиотека JavaScript, которая упрощает работу с DOM (Document Object Model), событиями, анимацией и AJAX (Asynchronous JavaScript and XML). Сайт использует jQuery для создания и добавления элементов на сайт, обработки событий формы и кнопки, отправки и получения данных от API с помощью AJAX и показа и скрытия иконки загрузки. Сайт также подключает jQuery через CDN, чтобы ускорить загрузку сайта.</li>
+            <li>JSON Placeholder: Это бесплатный API, который предоставляет фиктивные данные в формате JSON. Сайт использует JSON Placeholder для получения и создания постов. Сайт отправляет GET запрос к API, чтобы получить список постов, и POST запрос к API, чтобы создать новый пост.</li>
+        </ul>
+        <p>Для взаимодействия с JSON Placeholder API используются GET и POST запросы.</p>
+        <h2>Примеры запросов</h2>
+        <p>Ниже вы можете увидеть две кнопки, которые позволяют отправить GET или POST запрос к API и получить ответ в виде сайта для создания постов или сайта для просмотра случайного поста.</p>
+        <div class="buttons">
+            <!-- Кнопка для GET запроса -->
+            <a href="get.html" target="_blank" class="btn btn-primary">GET запрос</a>
+            <!-- Кнопка для POST запроса -->
+            <a href="post.html" target="_blank" class="btn btn-primary">POST запрос</a>
+        </div>
+    </div>
+    <!-- Подключение Bootstrap 5 через CDN -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

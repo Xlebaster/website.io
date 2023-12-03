@@ -1,0 +1,95 @@
+/* Стили для шапки сайта */
+.site-header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+  }
+  
+  .site-title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .site-description {
+    font-style: italic;
+    color: #999;
+  }
+  
+  /* Стили для навигации сайта */
+  .site-nav {
+    background-color: #333;
+  }
+  
+  .site-nav .nav-link {
+    color: #fff;
+  }
+  
+  .site-nav .nav-link:hover {
+    color: #ccc;
+  }
+  
+  .site-nav .nav-link.active {
+    color: #f0f0f0;
+  }
+  
+  /* Стили для основного содержимого сайта */
+  .site-main {
+    padding: 20px 0;
+  }
+  
+  .post-title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .post-body {
+    color: #666;
+  }
+  
+  .post-categories {
+    margin-top: 10px;
+  }
+  
+  .post-categories i {
+    color: #999;
+  }
+  
+  .post-stats {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .post-more {
+    color: #333;
+  }
+  
+  .post-more:hover {
+    color: #999;
+  }
+  
+  /* Стили для боковой панели */
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-text {
+    color: #666;
+  }
+  
+  /* Стили для кнопки получения поста */
+  #get-post {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Стили для подвала сайта */
+  .site-footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+  }
+  

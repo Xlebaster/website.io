@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Шаблон POST запроса</title>
+  <!-- Подключаем Bootstrap 5 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+  <!-- Подключаем Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <!-- Подключаем свой файл стилей -->
+  <link rel="stylesheet" href="post.css">
+</head>
+<body>
+  <!-- Создаем контейнер для сайта -->
+  <div class="container">
+    <!-- Создаем заголовок сайта -->
+    <h1 class="text-center my-4">Отправить свой пост</h1>
+    <!-- Создаем форму для создания нового поста -->
+    <form id="post-form" class="mb-4">
+      <!-- Создаем поле для ввода ID пользователя -->
+      <div class="form-group">
+        <label for="user-id">ID пользователя</label>
+        <input type="number" id="user-id" class="form-control" min="1" max="10" required>
+      </div>
+      <!-- Создаем поле для ввода заголовка поста -->
+      <div class="form-group">
+        <label for="post-title">Заголовок поста</label>
+        <input type="text" id="post-title" class="form-control" maxlength="100" required>
+      </div>
+      <!-- Создаем поле для ввода текста поста -->
+      <div class="form-group">
+        <label for="post-body">Текст поста</label>
+        <textarea id="post-body" class="form-control" rows="5" maxlength="500" required></textarea>
+      </div>
+      <!-- Создаем кнопку для отправки формы -->
+      <button type="submit" class="btn btn-primary">Создать пост</button>
+    </form>
+    <!-- Создаем список для отображения постов -->
+    <ul id="post-list" class="list-group">
+      <!-- Здесь будут добавляться посты с помощью JavaScript -->
+    </ul>
+  </div>
+  <!-- Подключаем jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <!-- Подключаем Bootstrap 5 -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+  <!-- Подключаем свой файл скриптов -->
+  <script src="post.js"></script>
+</body>
+</html>
